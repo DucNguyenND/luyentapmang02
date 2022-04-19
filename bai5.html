@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=prompt("nhập mảng a")
+    let str1=[]
+    for (let i = 0; i < a.length; i++) {
+        let a1=a[i]
+        str1.push(a1)
+    }
+    let b=prompt("nhập mảng b")
+    let str2=[]
+    for (let i = 0; i < b.length; i++) {
+        let b1=b[i]
+        str2.push(b1)
+    }
+    for (let i = 0; i <str1.length ; i++) {
+        if (str1[i]==str2[i]) alert("2 chuỗi trùng nhau")
+    }
+</script>
+</body>
+</html>
