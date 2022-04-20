@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tu Dien</title>
+</head>
+<body>
+<input id="key" type="text" value="">
+<button onclick="Find1()">Tìm kiếm</button>
+</body>
+</html>
+<script>
+  let dictionary = ['bear','dog', 'elephant', 'fox', 'cat'];
+  let meaning = ['gấu', 'chó', 'voi', 'cáo', 'cat' ];
+  function Find1(){
+    let word = document.getElementById("key").value;
+    for (let i = 0; i < dictionary.length; i++) {
+      if (word=== dictionary[i]) console.log(meaning[i])
+    }
+  }
+</script>
